@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node -e js"
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "debug": "DEBUG=* nodemon ./index.js --exec babel-node -e js"
   },
   "keywords": [],
   "author": "Levi Gonzales",
